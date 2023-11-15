@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBInput } from 'mdb-react-ui-kit';
 import { Link, useNavigate } from 'react-router-dom';
-import { jwtDecode } from 'jwt-decode';
+// import { jwtDecode } from '';
+import {jwtDecode} from 'jwt-decode';
+
 
 
 function Login({setIsAuthenticated}) {
@@ -46,7 +48,7 @@ function Login({setIsAuthenticated}) {
 
       setIsAuthenticated(true);
       console.log(userRole);
-      if (userRole == 'user'){
+      if (userRole === 'user'){
         navigate('/user')
       } else{
         navigate('/admin')
