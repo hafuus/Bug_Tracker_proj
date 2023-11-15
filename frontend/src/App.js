@@ -1,10 +1,10 @@
-import { Navigate, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import './input.css'
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Layout from './components/Layout';
-import Projects from './components/Project/Projects';
+// import Projects from './components/Project/Projects';
 import AddProject from './components/Project/AddProject';
 import ProjectDetails from './components/Project/ProjectDetails';
 import EditProject from './components/Project/EditProject';
@@ -14,7 +14,7 @@ import TicketDetails from './components/tickets/TicketDetails';
 import EditTicket from './components/tickets/EditTicket';
 import Sidebar from './components/Sidebar';
 import ProtectedRoute from './ProtectedRoute';
-import UserProfile from './UserProfile';
+// import UserProfile from './UserProfile';
 import Members from './components/Project/Members';
 import  UserDashboard from './components/User/UserDashboard'
 import UserProject from './components/User/UserProject';
@@ -22,7 +22,7 @@ import UserProject from './components/User/UserProject';
 // import charts from './components/Charts'
 import Charts from './components/Charts';
 import UserTicket from './components/User/UserTicket';
-import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 
 
