@@ -1,6 +1,7 @@
 [build]
 base = "frontend"
-command = "npm run build"
+command = "CI=false npm run build"
 publish = "build"
 node_version = "16"
+
 
